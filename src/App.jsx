@@ -30,7 +30,7 @@ let router = createBrowserRouter([
       {path:'*' , element:<NotFound/>}
     ]
   }
-])
+], {basename:'adasa-eg-'})
 function App() {
   const [count, setCount] = useState(0)
 
